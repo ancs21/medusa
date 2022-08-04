@@ -1,6 +1,7 @@
 import stream from "stream"
 import aws from "aws-sdk"
 import fs from "fs"
+import { parse } from "path"
 import { AbstractFileService } from "@medusajs/medusa"
 import { MedusaError } from "medusa-core-utils"
 
